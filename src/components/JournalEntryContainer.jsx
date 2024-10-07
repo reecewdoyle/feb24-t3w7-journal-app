@@ -10,8 +10,8 @@ export default function JournalEntryContainer({entryId}){
 	let journalEntriesData = useJournalEntriesData();
 
 	let [currentJournalEntry, setCurrentJournalEntry] = useState({});
-	
-    useEffect(() => {
+
+	useEffect(() => {
 		// On componentDidMount, retrieve journal entry with id of {entryId}
 		// from {journalEntriesData}
 		// and set that into {currentJournalEntry}
