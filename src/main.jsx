@@ -9,5 +9,6 @@ createRoot(document.getElementById('root')).render(
     <JournalEntriesProvider>
       <App />
     </JournalEntriesProvider>
+    
   </StrictMode>,
 )
